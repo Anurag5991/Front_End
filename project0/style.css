@@ -1,31 +1,61 @@
-h1 {
-    color: darkblue;
-    text-decoration: overline;
-    font-style: normal;
+body {
+    margin : 0;
 }
 
-.box1 {
-    background-color: yellow;
-    width: 600px;
-    height: 400px;
+#nav {
+    display : flex;
+    justify-content : flex-end;
+    margin-top: 15px;
 }
 
-.box2 {
-    background-color: pink;
-    width: 400px;
-    height: 250px;
-
+#nav a {
+    margin-right: 20px;
 }
 
-.box3 {
-    background-color: slateblue;
-    width: 100px;
-    height: 300px;
+#nav a.topImage {
+    width: 20px;
+    height: 20px;
+    background: rgb(202, 24, 24);
+    border-radius: 10px;
 }
 
-.box4 {
-    background-color: tomato;
-    width: 350px;
-    height: 120px;
+#middle {
+    margin-top: 300px;
 }
 
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid rgb(230, 227, 227);
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: rgb(236, 236, 236);
+}
+
+#links {
+    margin-top: 20px;
+    text-align: center;
+}
